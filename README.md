@@ -11,6 +11,7 @@ $ npm i -g tometo
 ## Usage
 
 ```bash
+# Default is 25 mins
 $ tometo [minutes] &
 ```
 
