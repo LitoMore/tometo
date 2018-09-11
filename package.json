@@ -1,0 +1,26 @@
+{
+  "name": "tometo",
+  "version": "0.0.0",
+  "description": "A CLI tomato timer tool with system notifer",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LitoMore/tometo.git"
+  },
+  "author": "LitoMore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LitoMore/tometo/issues"
+  },
+  "homepage": "https://github.com/LitoMore/tometo#readme",
+  "dependencies": {
+    "meow": "^5.0.0",
+    "node-notifier": "^5.2.1"
+  },
+  "devDependencies": {
+    "xo": "^0.23.0"
+  }
+}
