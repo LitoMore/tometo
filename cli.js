@@ -18,4 +18,4 @@ setTimeout(() => {
 		title: 'Tometo',
 		message: 'Time\'s up'
 	});
-}, time * 1000 * 60);
+}, Number(time) * 1000 * 60);
