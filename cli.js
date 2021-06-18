@@ -1,14 +1,15 @@
 #!/usr/bin/env node
-'use strict';
 
-const meow = require('meow');
-const notifier = require('node-notifier');
+import meow from 'meow';
+import notifier from 'node-notifier';
 
-const cli = meow();
+const cli = meow({
+	importMeta: import.meta
+});
 
 const [time = 25] = cli.input;
 
-if (isNaN(time)) {
+if (Number.isNaN(time)) {
 	console.log('Invalid time input');
 	process.exit(1);
 }
