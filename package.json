@@ -1,12 +1,12 @@
 {
   "name": "tometo",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A CLI tomato timer tool with system notifer",
   "type": "module",
   "bin": "cli.js",
   "engines": {
-    "node": ">=12.17",
-  ",
+    "node": ">=12.17"
+  },
   "scripts": {
     "test": "xo"
   },
